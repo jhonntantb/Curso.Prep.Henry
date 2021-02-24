@@ -1,0 +1,16 @@
+img { 
+    width: 400px;
+}
+#thirdDiv {
+    height: 600;
+    width: 500;
+    background-color: peru;
+}
+#spanId {
+    size: 18px;
+    margin: 50px;
+}
+#thirdDiv {
+    border: red 20px dashed;
+    padding: 50px;
+}
