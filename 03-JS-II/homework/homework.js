@@ -166,7 +166,7 @@ function esPrimo(numero) {
   // Nota: Los números 0 y 1 NO son considerados números primos
   if(numero<2) return false;
   if(numero===2) return true;
-  for(var i=2;i<numero;i++){
+  for(var i=3;i<numero;i++){
     if(numero%i===0){
       return false;
     }
@@ -189,11 +189,11 @@ function tablaDelSeis(){
   //Escribe una función que muestre la tabla de multiplicar del 6 (del 0 al 60).
   //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
   //Escribe tu código aquí 
-  let arraytabladel6=[]
+  var tabladel6=[]
   for( i=0;i<11;i++){
-    arraytabladel6.push(6*i)
+    tabladel6.push(6*i)
   }  
-  return arraytabladel6
+  return tabladel6;
 }
 
 function tieneTresDigitos(numero){
@@ -209,14 +209,14 @@ function doWhile(numero) {
   //Implementar una función tal que vaya aumentando el valor recibido en 5 hasta un límite de 8 veces
   //Retornar el valor final.
   //Usar el bucle do ... while.
-  var a=numero;
+  var aumentando=numero;
   var i=0
   do{ 
     i=i + 1;
-    a=a + 5;
+    aumentando=aumentando + 5;
   }
   while(i<8);
-  return a;
+  return aumentando;
 }
 
 
