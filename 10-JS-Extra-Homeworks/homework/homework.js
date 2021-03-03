@@ -10,6 +10,16 @@ function deObjetoAmatriz(objeto){
       C: 3
     }) ➞ [["D", 1], ["B", 2], ["C", 3]]*/
   //Escribe tu código aquí
+  var arrayClave= Object.keys(objeto);
+  var arrayValor= Object.values(objeto);
+  var arrayNuevo=[];
+  for(let i=1; i<arrayClave.length; i++){
+    arrayNuevo.push(Array.of())
+  }
+  for(let j=0; j<arrayClave.length; j++){
+    arrayNuevo[j].push.arrayClave[j];
+    arrayNuevo[j].push.arrayValor[j];
+  }
 }
 
 
@@ -35,6 +45,12 @@ function asAmirror(str) {
   //pero con cada una de sus palabras invertidas, como si fuera un espejo.
   //Ej: Recibe ---> "The Henry Challenge is close!" || Devuelve ---> "ehT yrneH egnellahC si !esolc"
   //Escribe tu código aquí
+  var letras= str.split("");
+  var palabras= str.split(" ");
+  var fraseinvertida="";
+  for(let i=0;i<palabras.length; i++){
+    fraseinvertida= palabras.reverse().split("")+palabras[i].reverse().split("");
+  }
 } 
 
 
@@ -43,6 +59,13 @@ function capicua(numero){
   //La misma debe retornar: "Es capicua" si el número se número que se lee igual de 
   //izquierda a derecha que de derecha a izquierda. Caso contrario retorna "No es capicua"
   //Escribe tu código aquí
+  let inverso=o;
+  let copyNumero= numero;
+  while(numero>o){
+    inverso=inverso*10;
+    inverso= inverso+(numero%10);
+    numero= parseInt(numero/10);
+  }
 }
 
 
@@ -50,6 +73,11 @@ function deleteAbc(cadena){
   //Define una función que elimine las letras "a", "b" y "c" de la cadena dada 
   //y devuelva la versión modificada o la misma cadena, en caso de contener dichas letras.
   //Escribe tu código aquí
+  for(var i=0; i<cadena.leng; i++ ){
+    if( cadena[i]==="a" || cadena[i]==="b" ||cadena[i]==="c"){
+      var nuevaCadena= cadena[i]-cadena.slice[i];
+    }
+  }
 }
 
 
