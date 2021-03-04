@@ -1,0 +1,15 @@
+Variables:
+          Las variables es algo que nosotros queremos almacenar para poder usarlo cuando lo necesitemos,
+          una ves almacenados podremos acceder  ellos cuando lo requerimos, y trabajar con esos datos.
+Estrings:
+          Son un tipo de variable en el caso practico podriamos llamarlo palabras o frases, siempre estan
+          definidas entre comillas(""). cualquier cosa que pongamos entre comillas sera una string.
+Funciones(argumentos,return):
+          Las funciones es donde manejamos y calculamos nuestras variables, sus argumentos son que variables
+          tiene nuestra funcion y con las cuales va trabajar. el return es que queremos que retorne al terminar
+          las operaciones.
+Declaraciones if:
+          Las declaraciones if es como decir si cumple con una comparacion le ordenamos que nos de verdadero
+          o falso.
+Valores boleanos:
+          Los boleanos solo seran dos verdadero o falso en nuestro caso true o false.
