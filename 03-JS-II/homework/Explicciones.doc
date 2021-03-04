@@ -1,0 +1,5 @@
+for: Este operdor es un bucle quiere decir que resolvera algo las veces que nosotros necesitemos que lo haga.
+&&: Es un operador logico que lo interpretamos como "y", quiere decir que si las expresiones que presentamos
+    son verdaderas, o si alguna no lo es.
+||: Es un operador logico que lo interpretamos como "o", quiere decir si alguna de las expresiones se cumple.
+!:  Es un operador logico que interpretamos como "no" quiere decir que nos dira que las expresiones no se cumplen.
