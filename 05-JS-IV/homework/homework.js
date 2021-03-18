@@ -6,14 +6,14 @@ function crearGato(nombre, edad) {
   // Agrega un método (funcion) llamado "meow" que devuelva el string "Meow!"
   // Devuelve el objeto
   // Tu código:
-  var objeto={
+  var gato= {
     nombre: nombre,
     edad: edad,
     meow: function(){
-      return "Meow!"
+      return "Meow!";
     }
   }
-  return objeto;
+  return gato;
 }
 
 
@@ -38,11 +38,9 @@ function multiplicarNumeroDesconocidoPorCinco(objetoMisterioso) {
   // "objetoMisterioso" tiene una propiedad llamada "numeroMisterioso"
   // Multiplica el numeroMisterioso por 5 y devuelve el producto
   // Tu código:
-  var numeroMisterioso= objetoMisterioso[numeroMisterioso];
-  var producto=objetoMisterioso.numeroMisterioso*5;
+  var producto= objetoMisterioso.numeroMisterioso*5;
   return producto;
 }
-
 function eliminarPropiedad(objeto, unaPropiedad) {
   // Elimina la propiedad "unaPropiedad" de "objeto"
   // tip: tenes que usar bracket notation
@@ -113,7 +111,8 @@ function agregarAmigo(usuario, nuevoAmigo) {
   // Agrega "nuevoAmigo" al final de ese array
   // Devuelve el objeto "usuario"
   // // Tu código:
-  usuario.amigos.push(nuevoAmigo);
+  var amigos= usuario.amigos;
+  amigos.push(nuevoAmigo);
   return usuario;
 }
 
@@ -123,22 +122,23 @@ function pasarUsuarioAPremium(usuarios) {
   // Define cada propiedad "esPremium" de cada objeto como "true"
   // Devuelve el array de usuarios
   // Tu código:
-  for (var i=0; i<usuarios.length; i++) {
+  for(i=0; i<usuarios.length; i++){
     usuarios[i].esPremium= true;
   }
-  return usuarios;
+ return usuarios
 }
 
 function sumarLikesDeUsuario(usuario) {
   // "usuario" tiene una propiedad llamada "posts" que es un array
   // "posts" es un array de objetos "post"
-  // Cada objeto "post" tiene una propiedad llamada "likes" que es un entero (int/integer)
-  // Suma todos los likes de todos los objetos "post"
+  // Cada objeto "posts" tiene una propiedad llamada "likes" que es un entero (int/integer)
+  // Suma todos los likes de todos los objetos "posts"
   // Devuelve la suma
   // Tu código:
-  var suma = 0
-  for(var i=0; i<usuario.posts.length; i++) {
-    suma= suma + usuario.posts[i].likes;
+  var suma=0;
+  var posteo=usuario.posts;
+  for(i=0; i<posteo.length; i++){
+    suma= suma+posteo[i].likes;
   }
   return suma;
 }
@@ -153,8 +153,9 @@ function agregarMetodoCalculoDescuento(producto) {
   // producto.porcentajeDeDescuento -> 0.2 (o simplemente ".2")
   // producto.calcularPrecioDescuento() -> 20 - (20 * 0.2)
   // Tu código:
-  producto.calcularPrecioDescuento= function(){
-    return this.precio - (this.precio*this.porcentajeDeDescuento);
+  producto.calcularPrecioDescuento=function(){
+    var  precioreal=producto.precio - (producto.precio)*(producto.porcentajeDeDescuento);
+    return precioreal;
   }
   return producto;
 }
