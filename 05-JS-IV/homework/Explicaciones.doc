@@ -1,0 +1,10 @@
+Objetos: Los objetos son contenedores de datos, de una sola cosa a diferencia de los array que contienen
+          indeterminados datos. estos se escriben con llasves {}.
+Propiedades: Son lo que va contener nuestro objeto, caracteristicas o datos que necitamos guardar para su
+          mas adelante de acuerdo a nuestras necesidades.
+Metodos: Son valores que seran expresadas en funciones , las cuales seran parte de nuestro objeto y seran
+         la respuesta a una clave.
+Bucle "for...in": para iterar sobre nuestro objeto seguiremos usando "for" con la diferencia que usaremos
+                  "in" para nuestras iteraciones, ya uqe nos permite iterar en "clave:valor".
+Notación de puntos vs Notación de corchetes: estos operadores nos permitiran acceder a nuestras propiedades 
+                  y metdos que tenemos guardados, los usaremos de acuerdo a nuestras necesidades
