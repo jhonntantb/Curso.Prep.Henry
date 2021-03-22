@@ -1,0 +1,3 @@
+protoype: Es un metodo unico al que accederan los objetos para dar mostra lo que requieran sin necesidad
+          de duplicar una y otra ves el mismo metodo en cada uno de ellos.
+Constructors(de clases): Es un metodo que usaremos para iniciar una clase y crear objetos dentro de ella.
